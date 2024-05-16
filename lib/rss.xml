@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ObsidianCloud]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ObsidianCloud</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 16 May 2024 04:30:24 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 16 May 2024 04:29:53 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[编码器]]></title><description><![CDATA[ 
+ <br> 转换格式到格式]]></description><link>整理/科/编码器.html</link><guid isPermaLink="false">整理/科/编码器.md</guid><pubDate>Tue, 09 Jan 2024 05:54:03 GMT</pubDate></item><item><title><![CDATA[变形编码器]]></title><description><![CDATA[ 
+ <br><img src="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_2.png" referrerpolicy="no-referrer"><br>预训练矩阵乘嵌入得Q,K,V 向量
+<img src="https://jalammar.github.io/images/t/transformer_self_attention_vectors.png" referrerpolicy="no-referrer">
+<br>相关词打分计算加权之和向量
+<img src="https://jalammar.github.io/images/t/self-attention-output.png" referrerpolicy="no-referrer"><br>
+
+<br>多头注意力机制
+<img src="https://jalammar.github.io/images/t/transformer_multi-headed_self-attention-recap.png" referrerpolicy="no-referrer">
+]]></description><link>整理/科/变形编码器.html</link><guid isPermaLink="false">整理/科/变形编码器.md</guid><pubDate>Wed, 10 Jan 2024 01:21:17 GMT</pubDate><enclosure url="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://jalammar.github.io/images/t/transformer_resideual_layer_norm_2.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[变形解码器]]></title><description><![CDATA[ 
+ <br><img src="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" referrerpolicy="no-referrer">]]></description><link>整理/科/变形解码器.html</link><guid isPermaLink="false">整理/科/变形解码器.md</guid><pubDate>Wed, 10 Jan 2024 01:26:31 GMT</pubDate><enclosure url="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[变形神经网络]]></title><description><![CDATA[ 
+ <br>
+<br>注重并行
+<br><a data-href="变形编码器" href="/整理/科/变形编码器.html" class="internal-link" target="_self" rel="noopener">变形编码器</a>+<a data-href="变形解码器" href="/整理/科/变形解码器.html" class="internal-link" target="_self" rel="noopener">变形解码器</a>
+<br>]]></description><link>整理/科/变形神经网络.html</link><guid isPermaLink="false">整理/科/变形神经网络.md</guid><pubDate>Wed, 10 Jan 2024 09:02:32 GMT</pubDate></item><item><title><![CDATA[卷积神经网络]]></title><description><![CDATA[ 
+ <br><img src="https://www.asimovinstitute.org/wp-content/uploads/2016/09/cnn.png" referrerpolicy="no-referrer">]]></description><link>整理/科/卷积神经网络.html</link><guid isPermaLink="false">整理/科/卷积神经网络.md</guid><pubDate>Fri, 05 Jan 2024 09:23:17 GMT</pubDate><enclosure url="https://www.asimovinstitute.org/wp-content/uploads/2016/09/cnn.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.asimovinstitute.org/wp-content/uploads/2016/09/cnn.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[前馈神经网络]]></title><description><![CDATA[ 
+ <br>通过多层<a data-href="神经元" href="/整理/科/神经元.html" class="internal-link" target="_self" rel="noopener">神经元</a>的监督学习完成相关任务<br>
+<img src="https://www.asimovinstitute.org/wp-content/uploads/2016/09/ff.png" referrerpolicy="no-referrer">]]></description><link>整理/科/前馈神经网络.html</link><guid isPermaLink="false">整理/科/前馈神经网络.md</guid><pubDate>Tue, 09 Jan 2024 07:14:20 GMT</pubDate><enclosure url="https://www.asimovinstitute.org/wp-content/uploads/2016/09/ff.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.asimovinstitute.org/wp-content/uploads/2016/09/ff.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[神经网络]]></title><description><![CDATA[ 
+ <br>各种<a data-href="神经元" href="/整理/科/神经元.html" class="internal-link" target="_self" rel="noopener">神经元</a>的排列组合<br>
+<img alt="Pasted image 20240105173555.png" src="/lib/media/pasted-image-20240105173555.png">]]></description><link>整理/科/神经网络.html</link><guid isPermaLink="false">整理/科/神经网络.md</guid><pubDate>Wed, 10 Jan 2024 09:37:29 GMT</pubDate><enclosure url="lib/media/pasted-image-20240105173555.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240105173555.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[神经元]]></title><description><![CDATA[ 
+ <br>定义:: <a data-href="输入" href="/整理/科/输入.html" class="internal-link" target="_self" rel="noopener">输入</a>乘<a data-href="权重" href="/整理/科/权重.html" class="internal-link" target="_self" rel="noopener">权重</a>加<a data-href="偏差" href="/整理/科/偏差.html" class="internal-link" target="_self" rel="noopener">偏差</a>经<a data-href="激活函数" href="/临时/激活函数.html" class="internal-link" target="_self" rel="noopener">激活函数</a>后<a data-href="输出" href="/整理/科/输出.html" class="internal-link" target="_self" rel="noopener">输出</a>]]></description><link>整理/科/神经元.html</link><guid isPermaLink="false">整理/科/神经元.md</guid><pubDate>Fri, 05 Jan 2024 02:43:55 GMT</pubDate></item><item><title><![CDATA[循环神经网络]]></title><description><![CDATA[ 
+ <br><img src="https://www.asimovinstitute.org/wp-content/uploads/2016/09/rnn.png" referrerpolicy="no-referrer">]]></description><link>整理/科/循环神经网络.html</link><guid isPermaLink="false">整理/科/循环神经网络.md</guid><pubDate>Mon, 08 Jan 2024 09:09:31 GMT</pubDate><enclosure url="https://www.asimovinstitute.org/wp-content/uploads/2016/09/rnn.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.asimovinstitute.org/wp-content/uploads/2016/09/rnn.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Apache2.0]]></title><description><![CDATA[ 
+ <br>Apache2.0<br>
+Apache License<br>
+Version 2.0, January 2004<br>
+<a rel="noopener" class="external-link" href="http://www.apache.org/licenses/" target="_blank">http://www.apache.org/licenses/</a><br>   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION<br>
+<br>
+Definitions.
+"License" shall mean the terms and conditions for use, reproduction,<br>
+and distribution as defined by Sections 1 through 9 of this document.
+"Licensor" shall mean the copyright owner or entity authorized by<br>
+the copyright owner that is granting the License.
+"Legal Entity" shall mean the union of the acting entity and all<br>
+other entities that control, are controlled by, or are under common<br>
+control with that entity. For the purposes of this definition,<br>
+"control" means (i) the power, direct or indirect, to cause the<br>
+direction or management of such entity, whether by contract or<br>
+otherwise, or (ii) ownership of fifty percent (50%) or more of the<br>
+outstanding shares, or (iii) beneficial ownership of such entity.
+"You" (or "Your") shall mean an individual or Legal Entity<br>
+exercising permissions granted by this License.
+"Source" form shall mean the preferred form for making modifications,<br>
+including but not limited to software source code, documentation<br>
+source, and configuration files.
+"Object" form shall mean any form resulting from mechanical<br>
+transformation or translation of a Source form, including but<br>
+not limited to compiled object code, generated documentation,<br>
+and conversions to other media types.
+"Work" shall mean the work of authorship, whether in Source or<br>
+Object form, made available under the License, as indicated by a<br>
+copyright notice that is included in or attached to the work<br>
+(an example is provided in the Appendix below).
+"Derivative Works" shall mean any work, whether in Source or Object<br>
+form, that is based on (or derived from) the Work and for which the<br>
+editorial revisions, annotations, elaborations, or other modifications<br>
+represent, as a whole, an original work of authorship. For the purposes<br>
+of this License, Derivative Works shall not include works that remain<br>
+separable from, or merely link (or bind by name) to the interfaces of,<br>
+the Work and Derivative Works thereof.
+"Contribution" shall mean any work of authorship, including<br>
+the original version of the Work and any modifications or additions<br>
+to that Work or Derivative Works thereof, that is intentionally<br>
+submitted to Licensor for inclusion in the Work by the copyright owner<br>
+or by an individual or Legal Entity authorized to submit on behalf of<br>
+the copyright owner. For the purposes of this definition, "submitted"<br>
+means any form of electronic, verbal, or written communication sent<br>
+to the Licensor or its representatives, including but not limited to<br>
+communication on electronic mailing lists, source code control systems,<br>
+and issue tracking systems that are managed by, or on behalf of, the<br>
+Licensor for the purpose of discussing and improving the Work, but<br>
+excluding communication that is conspicuously marked or otherwise<br>
+designated in writing by the copyright owner as "Not a Contribution."
+"Contributor" shall mean Licensor and any individual or Legal Entity<br>
+on behalf of whom a Contribution has been received by Licensor and<br>
+subsequently incorporated within the Work.
+
+<br>
+Grant of Copyright License. Subject to the terms and conditions of<br>
+this License, each Contributor hereby grants to You a perpetual,<br>
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+copyright license to reproduce, prepare Derivative Works of,<br>
+publicly display, publicly perform, sublicense, and distribute the<br>
+Work and such Derivative Works in Source or Object form.
+
+<br>
+Grant of Patent License. Subject to the terms and conditions of<br>
+this License, each Contributor hereby grants to You a perpetual,<br>
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+(except as stated in this section) patent license to make, have made,<br>
+use, offer to sell, sell, import, and otherwise transfer the Work,<br>
+where such license applies only to those patent claims licensable<br>
+by such Contributor that are necessarily infringed by their<br>
+Contribution(s) alone or by combination of their Contribution(s)<br>
+with the Work to which such Contribution(s) was submitted. If You<br>
+institute patent litigation against any entity (including a<br>
+cross-claim or counterclaim in a lawsuit) alleging that the Work<br>
+or a Contribution incorporated within the Work constitutes direct<br>
+or contributory patent infringement, then any patent licenses<br>
+granted to You under this License for that Work shall terminate<br>
+as of the date such litigation is filed.
+
+<br>
+Redistribution. You may reproduce and distribute copies of the<br>
+Work or Derivative Works thereof in any medium, with or without<br>
+modifications, and in Source or Object form, provided that You<br>
+meet the following conditions:
+(a) You must give any other recipients of the Work or<br>
+Derivative Works a copy of this License; and
+(b) You must cause any modified files to carry prominent notices<br>
+stating that You changed the files; and
+(c) You must retain, in the Source form of any Derivative Works<br>
+that You distribute, all copyright, patent, trademark, and<br>
+attribution notices from the Source form of the Work,<br>
+excluding those notices that do not pertain to any part of<br>
+the Derivative Works; and
+(d) If the Work includes a "NOTICE" text file as part of its<br>
+distribution, then any Derivative Works that You distribute must<br>
+include a readable copy of the attribution notices contained<br>
+within such NOTICE file, excluding those notices that do not<br>
+pertain to any part of the Derivative Works, in at least one<br>
+of the following places: within a NOTICE text file distributed<br>
+as part of the Derivative Works; within the Source form or<br>
+documentation, if provided along with the Derivative Works; or,<br>
+within a display generated by the Derivative Works, if and<br>
+wherever such third-party notices normally appear. The contents<br>
+of the NOTICE file are for informational purposes only and<br>
+do not modify the License. You may add Your own attribution<br>
+notices within Derivative Works that You distribute, alongside<br>
+or as an addendum to the NOTICE text from the Work, provided<br>
+that such additional attribution notices cannot be construed<br>
+as modifying the License.
+You may add Your own copyright statement to Your modifications and<br>
+may provide additional or different license terms and conditions<br>
+for use, reproduction, or distribution of Your modifications, or<br>
+for any such Derivative Works as a whole, provided Your use,<br>
+reproduction, and distribution of the Work otherwise complies with<br>
+the conditions stated in this License.
+
+<br>
+Submission of Contributions. Unless You explicitly state otherwise,<br>
+any Contribution intentionally submitted for inclusion in the Work<br>
+by You to the Licensor shall be under the terms and conditions of<br>
+this License, without any additional terms or conditions.<br>
+Notwithstanding the above, nothing herein shall supersede or modify<br>
+the terms of any separate license agreement you may have executed<br>
+with Licensor regarding such Contributions.
+
+<br>
+Trademarks. This License does not grant permission to use the trade<br>
+names, trademarks, service marks, or product names of the Licensor,<br>
+except as required for reasonable and customary use in describing the<br>
+origin of the Work and reproducing the content of the NOTICE file.
+
+<br>
+Disclaimer of Warranty. Unless required by applicable law or<br>
+agreed to in writing, Licensor provides the Work (and each<br>
+Contributor provides its Contributions) on an "AS IS" BASIS,<br>
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or<br>
+implied, including, without limitation, any warranties or conditions<br>
+of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A<br>
+PARTICULAR PURPOSE. You are solely responsible for determining the<br>
+appropriateness of using or redistributing the Work and assume any<br>
+risks associated with Your exercise of permissions under this License.
+
+<br>
+Limitation of Liability. In no event and under no legal theory,<br>
+whether in tort (including negligence), contract, or otherwise,<br>
+unless required by applicable law (such as deliberate and grossly<br>
+negligent acts) or agreed to in writing, shall any Contributor be<br>
+liable to You for damages, including any direct, indirect, special,<br>
+incidental, or consequential damages of any character arising as a<br>
+result of this License or out of the use or inability to use the<br>
+Work (including but not limited to damages for loss of goodwill,<br>
+work stoppage, computer failure or malfunction, or any and all<br>
+other commercial damages or losses), even if such Contributor<br>
+has been advised of the possibility of such damages.
+
+<br>
+Accepting Warranty or Additional Liability. While redistributing<br>
+the Work or Derivative Works thereof, You may choose to offer,<br>
+and charge a fee for, acceptance of support, warranty, indemnity,<br>
+or other liability obligations and/or rights consistent with this<br>
+License. However, in accepting such obligations, You may act only<br>
+on Your own behalf and on Your sole responsibility, not on behalf<br>
+of any other Contributor, and only if You agree to indemnify,<br>
+defend, and hold each Contributor harmless for any liability<br>
+incurred by, or claims asserted against, such Contributor by reason<br>
+of your accepting any such warranty or additional liability.
+
+<br>   END OF TERMS AND CONDITIONS<br>   APPENDIX: How to apply the Apache License to your work.<br>  To apply the Apache License to your work, attach the following
+  boilerplate notice, with the fields enclosed by brackets "[]"
+  replaced with your own identifying information. (Don't include
+  the brackets!)  The text should be enclosed in the appropriate
+  comment syntax for the file format. We also recommend that a
+  file or class name and description of purpose be included on the
+  same "printed page" as the copyright notice for easier
+  identification within third-party archives.
+复制<br>   Copyright [yyyy] [name of copyright owner]<br>   Licensed under the Apache License, Version 2.0 (the "License");<br>
+you may not use this file except in compliance with the License.<br>
+You may obtain a copy of the License at<br>   http://www.apache.org/licenses/LICENSE-2.0
+复制<br>   Unless required by applicable law or agreed to in writing, software<br>
+distributed under the License is distributed on an "AS IS" BASIS,<br>
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+See the License for the specific language governing permissions and<br>
+limitations under the License.]]></description><link>整理/科/apache2.0.html</link><guid isPermaLink="false">整理/科/Apache2.0.md</guid><pubDate>Fri, 08 Dec 2023 03:31:41 GMT</pubDate></item><item><title><![CDATA[GloVe编码器]]></title><description><![CDATA[ 
+ <br>LSA(Latent Semantic Analysis) + <a data-href="Word2Vec编码器" href="/整理/科/word2vec编码器.html" class="internal-link" target="_self" rel="noopener">Word2Vec编码器</a>]]></description><link>整理/科/glove编码器.html</link><guid isPermaLink="false">整理/科/GloVe编码器.md</guid><pubDate>Tue, 09 Jan 2024 06:13:56 GMT</pubDate></item><item><title><![CDATA[Llama 2 COMMUNITY LICENSE AGREEMENT]]></title><description><![CDATA[ 
+ <br>LLAMA 2 COMMUNITY LICENSE AGREEMENT	<br>
+Llama 2 Version Release Date: July 18, 2023<br>"Agreement" means the terms and conditions for use, reproduction, distribution and<br>
+modification of the Llama Materials set forth herein.<br>"Documentation" means the specifications, manuals and documentation<br>
+accompanying Llama 2 distributed by Meta at ai.meta.com/resources/models-and-<br>
+libraries/llama-downloads/.<br>"Licensee" or "you" means you, or your employer or any other person or entity (if<br>
+you are entering into this Agreement on such person or entity's behalf), of the age<br>
+required under applicable laws, rules or regulations to provide legal consent and that<br>
+has legal authority to bind your employer or such other person or entity if you are<br>
+entering in this Agreement on their behalf.<br>"Llama 2" means the foundational large language models and software and<br>
+algorithms, including machine-learning model code, trained model weights,<br>
+inference-enabling code, training-enabling code, fine-tuning enabling code and other<br>
+elements of the foregoing distributed by Meta at ai.meta.com/resources/models-and-<br>
+libraries/llama-downloads/.<br>"Llama Materials" means, collectively, Meta's proprietary Llama 2 and<br>
+Documentation (and any portion thereof) made available under this Agreement.<br>"Meta" or "we" means Meta Platforms Ireland Limited (if you are located in or, if you<br>
+are an entity, your principal place of business is in the EEA or Switzerland) and Meta<br>
+Platforms, Inc. (if you are located outside of the EEA or Switzerland). <br>By clicking "I Accept" below or by using or distributing any portion or element of the<br>
+Llama Materials, you agree to be bound by this Agreement.<br>
+<br>
+License Rights and Redistribution. 
+  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-
+复制
+transferable and royalty-free limited license under Meta's intellectual property or<br>
+other rights owned by Meta embodied in the Llama Materials to use, reproduce,<br>
+distribute, copy, create derivative works of, and make modifications to the Llama<br>
+Materials.  
+  b. Redistribution and Use.  
+
+        i. If you distribute or make the Llama Materials, or any derivative works 
+复制
+thereof, available to a third party, you shall provide a copy of this Agreement to such<br>
+third party.<br>
+ii.  If you receive Llama Materials, or any derivative works thereof, from<br>
+a Licensee as part of an integrated end user product, then Section 2 of this<br>
+Agreement will not apply to you. 
+        iii. You must retain in all copies of the Llama Materials that you 
+复制
+distribute the following attribution notice within a "Notice" text file distributed as a<br>
+part of such copies: "Llama 2 is licensed under the LLAMA 2 Community License,<br>
+Copyright (c) Meta Platforms, Inc. All Rights Reserved."
+        iv. Your use of the Llama Materials must comply with applicable laws 
+复制
+and regulations (including trade compliance laws and regulations) and adhere to the<br>
+Acceptable Use Policy for the Llama Materials (available at<br>
+<a rel="noopener" class="external-link" href="https://ai.meta.com/llama/use-policy" target="_blank">https://ai.meta.com/llama/use-policy</a>), which is hereby incorporated by reference into<br>
+this Agreement.
+        v. You will not use the Llama Materials or any output or results of the 
+复制
+Llama Materials to improve any other large language model (excluding Llama 2 or<br>
+derivative works thereof).  
+
+<br>
+Additional Commercial Terms. If, on the Llama 2 version release date, the<br>
+monthly active users of the products or services made available by or for Licensee,<br>
+or Licensee's affiliates, is greater than 700 million monthly active users in the<br>
+preceding calendar month, you must request a license from Meta, which Meta may<br>
+grant to you in its sole discretion, and you are not authorized to exercise any of the<br>
+rights under this Agreement unless or until Meta otherwise expressly grants you<br>
+such rights.<br>
+
+
+<br>
+Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE<br>
+LLAMA MATERIALS AND ANY OUTPUT AND RESULTS THEREFROM ARE<br>
+PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,<br>
+EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY<br>
+WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR<br>
+FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE<br>
+FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING<br>
+THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR<br>
+USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.
+
+<br>
+Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE<br>
+LIABLE UNDER ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, TORT,<br>
+NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS<br>
+AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL,<br>
+CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN<br>
+IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF<br>
+ANY OF THE FOREGOING.
+
+<br>
+Intellectual Property.
+  a. No trademark licenses are granted under this Agreement, and in 
+复制
+connection with the Llama Materials, neither Meta nor Licensee may use any name<br>
+or mark owned by or associated with the other or any of its affiliates, except as<br>
+required for reasonable and customary use in describing and redistributing the<br>
+Llama Materials.
+  b. Subject to Meta's ownership of Llama Materials and derivatives made by or 
+复制
+for Meta, with respect to any derivative works and modifications of the Llama<br>
+Materials that are made by you, as between you and Meta, you are and will be the<br>
+owner of such derivative works and modifications.
+  c. If you institute litigation or other proceedings against Meta or any entity 
+复制
+(including a cross-claim or counterclaim in a lawsuit) alleging that the Llama<br>
+Materials or Llama 2 outputs or results, or any portion of any of the foregoing,<br>
+constitutes an infringement of intellectual property or other rights owned or licensable<br>
+by you, then any licenses granted to you under this Agreement shall terminate as of<br>
+the date such litigation or claim is filed or instituted. You will indemnify and hold<br>
+harmless Meta from and against any claim by any third party arising out of or related<br>
+to your use or distribution of the Llama Materials.
+
+<br>
+Term and Termination. The term of this Agreement will commence upon your<br>
+acceptance of this Agreement or access to the Llama Materials and will continue in<br>
+full force and effect until terminated in accordance with the terms and conditions<br>
+herein. Meta may terminate this Agreement if you are in breach of any term or<br>
+condition of this Agreement. Upon termination of this Agreement, you shall delete<br>
+and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the<br>
+termination of this Agreement. 
+
+<br>
+Governing Law and Jurisdiction. This Agreement will be governed and<br>
+construed under the laws of the State of California without regard to choice of law<br>
+principles, and the UN Convention on Contracts for the International Sale of Goods<br>
+does not apply to this Agreement. The courts of California shall have exclusive<br>
+jurisdiction of any dispute arising out of this Agreement. 
+
+]]></description><link>整理/科/llama-2-community-license-agreement.html</link><guid isPermaLink="false">整理/科/Llama 2 COMMUNITY LICENSE AGREEMENT.md</guid><pubDate>Fri, 08 Dec 2023 03:21:06 GMT</pubDate></item><item><title><![CDATA[Word2Vec编码器]]></title><description><![CDATA[ 
+ <br>通过训练<a data-href="前馈神经网络" href="/整理/科/前馈神经网络.html" class="internal-link" target="_self" rel="noopener">前馈神经网络</a>转换文本格式到向量格式<br>
+<br>learning models
+
+<br>CBOW (Continuous Bag-of-Words)
+<br>Continuous Skip-Gram
+
+
+]]></description><link>整理/科/word2vec编码器.html</link><guid isPermaLink="false">整理/科/Word2Vec编码器.md</guid><pubDate>Tue, 09 Jan 2024 06:16:15 GMT</pubDate></item><item><title><![CDATA[看板]]></title><description><![CDATA[ 
+ TODO2<a aria-label="更多选项" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a><a data-href="往日任务" href="/任务/往日任务.html" class="internal-link" target="_self" rel="noopener">往日任务</a><a data-ignore-drag="true" class="kanban-plugin__item-postfix-button clickable-icon" aria-label="更多选项"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a><a data-href="其他任务" href="/任务/其他任务.html" class="internal-link" target="_self" rel="noopener">其他任务</a><a data-ignore-drag="true" class="kanban-plugin__item-postfix-button clickable-icon" aria-label="更多选项"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ 添加卡片DONE0<a aria-label="更多选项" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ 添加卡片]]></description><link>看板.html</link><guid isPermaLink="false">看板.md</guid><pubDate>Thu, 18 Apr 2024 01:58:28 GMT</pubDate></item><item><title><![CDATA[dataview]]></title><description><![CDATA[ 
+ <br><br><br><br><img src="https://drime.cn/cloud/%E5%9B%BE/iPhone/IMG_20231213_192941.jpg" referrerpolicy="no-referrer"><br><br><br><br>Info
+example
+<br><br><br>&lt;Counter/&gt;
+复制]]></description><link>示例.html</link><guid isPermaLink="false">示例.md</guid><pubDate>Fri, 22 Dec 2023 12:01:36 GMT</pubDate><enclosure url="https://drime.cn/cloud/%E5%9B%BE/iPhone/IMG_20231213_192941.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://drime.cn/cloud/%E5%9B%BE/iPhone/IMG_20231213_192941.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[总览]]></title><description><![CDATA[ 
+ <br>  今天  <br><a data-href="行" href="/行" class="internal-link" target="_self" rel="noopener">行</a> <br>Jan                               Feb                            Mar                               Apr                              May                               Jun                              Jul                               Aug                               Sep                              Oct                               Nov                              Dec                               <br><a data-href="财" href="/财" class="internal-link" target="_self" rel="noopener">财</a> <br>Jan                               Feb                            Mar                               Apr                              May                               Jun                              Jul                               Aug                               Sep                              Oct                               Nov                              Dec                               <br><a data-href="健" href="/健" class="internal-link" target="_self" rel="noopener">健</a> <br>Jan                               Feb                            Mar                               Apr                              May                               Jun                              Jul                               Aug                               Sep                              Oct                               Nov                              Dec                               <br><a data-href="学" href="/整理/学.html" class="internal-link" target="_self" rel="noopener">学</a> <br>Jan                               Feb                            Mar                               Apr                              May                               Jun                              Jul                               Aug                               Sep                              Oct                               Nov                              Dec                               <br><a data-href="人" href="/模板/人.html" class="internal-link" target="_self" rel="noopener">人</a> <br><br>Jan                               Feb                            Mar                               Apr                              May                               Jun                              Jul                               Aug                               Sep                              Oct                               Nov                              Dec                               ]]></description><link>总览.html</link><guid isPermaLink="false">总览.md</guid><pubDate>Mon, 25 Dec 2023 09:28:43 GMT</pubDate></item><item><title><![CDATA[RAG]]></title><description><![CDATA[ 
+ Licenses<br>SaaS: RAG<br>stanford_alpaca<br>benchmark<br>data collection<br>
+chain-of-thought<br><a data-href="LLM20231208.jpg" href="/整理/图/llm20231208.jpg" class="internal-link" target="_self" rel="noopener">LLM20231208.jpg</a><br>PaaS: LLM Serving<br>LoRA<br>ZeRO<br>LangChain<br><a data-href="Apache2.0" href="/整理/科/apache2.0.html" class="internal-link" target="_self" rel="noopener">Apache2.0</a> ✅<br><a data-href="Self-Instruct.PNG" href="/整理/图/self-instruct.png" class="internal-link" target="_self" rel="noopener">Self-Instruct.PNG</a><br><a data-href="Llama 2 COMMUNITY LICENSE AGREEMENT" href="/整理/科/llama-2-community-license-agreement.html" class="internal-link" target="_self" rel="noopener">Llama 2 COMMUNITY LICENSE AGREEMENT</a><br>GPL3.0<br>MIT<br>ChatGLM 6B<br>PEFT<br>Qwen 7B<img src="/整理/图/chatglm_6b.jpg" draggable="false">ChatGLM_6B.jpg<br>Rejection Sampling<br>Proximal Policy Optimization<img src="/整理/图/llama2-chat.png" draggable="false">Llama2-chat.png<img src="/整理/图/qwen_7b.jpg" draggable="false">Qwen_7B.jpg<br>Llama2 7B<br>DeepSpeed<br>AI<br>IaaS: Hardware<br>parameters: 7B ~= 28GB<br>InfiniBand<br>AWS：¥5186<br>Aliyun：¥6487<br>RunPod：¥4030<br>cloud：1 month<img src="/整理/图/cloudaliyun.jpg" draggable="false">CloudAliyun.JPG<img src="/整理/图/cloudrunpod.jpg" draggable="false">CloudRunPod.jpg<img src="/整理/图/cloudaws.jpg" draggable="false">CloudAWS.jpg<br>demo data for 20 interesting questions<br>
+organization chart<br>
+pricing for products<br>
+production timeline <img src="/整理/图/pasted-image-20240112205124.png" draggable="false">Pasted image 20240112205124.png<br>quantilization<br>CUDA<br>Nvlink<br>
+<br>A800: 80GB
+<br>V100: 32GB
+<br>A10: 24GB
+<br>3090: 24GB
+<br>lookup german embeddings<br>8-bit = 7GB<br>4-bit = 4GB<br>16-bit = 14GB]]></description><link>rag.html</link><guid isPermaLink="false">RAG.canvas</guid><pubDate>Thu, 16 May 2024 04:29:30 GMT</pubDate><enclosure url="整理/图/chatglm_6b.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;整理/图/chatglm_6b.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>

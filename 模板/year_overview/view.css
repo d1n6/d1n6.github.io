@@ -1,0 +1,22 @@
+.month {
+  height: 1.1em;
+}
+
+.monthLabel {
+  display: inline-block;
+  min-width: 30px;
+  font-size: 10pt;
+}
+
+.day {
+  width: 0.8vw;
+  height: 10px;
+  border-radius: 1px;
+  background-color: var(--background);
+  display: inline-block;
+  font-size: 5pt;
+}
+
+.day:hover {
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+}
